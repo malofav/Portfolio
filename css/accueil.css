@@ -1,0 +1,96 @@
+html, body {
+    background-color: var(--bg);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.presentation {
+    height: 62vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+    padding-top: calc(5vh + 100px);
+}
+
+.pp, .text-pres {
+    height: 50vh;
+    width: 30%;
+    z-index: 2;
+}
+
+.pp {
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-pres {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: "Arimo", sans-serif;
+    color: var(--main);
+    font-size: 25px;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+
+    border-left: 2px solid var(--main);
+    padding-left: 30px;
+
+}
+
+.tp-name {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.tp-title {
+    font-size: 25px;
+}
+
+
+
+
+.info {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 30px;
+    border-radius: 16px;
+    transition: 0.2s all ease-in-out;
+    color: var(--main);
+    font-family: "Arimo", sans-serif;
+    font-size: 18px;
+}
+
+.info-item:hover {
+    background-color: rgba(74, 78, 105, 0.07);
+    transform: translateY(-3px);
+}
+
+.info-item img {
+    height: 30px;
+    width: 30px;
+    opacity: 0.7;
+}
+

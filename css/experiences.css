@@ -1,0 +1,128 @@
+.exp-main {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    width: 75%;
+    margin: 0 auto;
+    font-family: "Arimo", sans-serif;
+    color: var(--main);
+}
+
+.exp-title {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+/* Sections */
+.exp-section {
+    margin-bottom: 50px;
+}
+
+.section-label {
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(74, 78, 105, 0.2);
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+/* Cards */
+.card {
+    background-color: rgba(74, 78, 105, 0.07);
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(74, 78, 105, 0.15);
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Badges de type */
+.card-type {
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.internship {
+    background-color: rgba(74, 78, 105, 0.15);
+    color: var(--main);
+}
+
+.job {
+    background-color: rgba(100, 160, 120, 0.15);
+    color: #3a7d55;
+}
+
+.project {
+    background-color: rgba(180, 120, 60, 0.15);
+    color: #a0621e;
+}
+
+.asso {
+    background-color: rgba(160, 80, 140, 0.15);
+    color: #8b3a7a;
+}
+
+.card-date {
+    font-size: 13px;
+    color: grey;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-org {
+    font-size: 14px;
+    color: grey;
+    font-style: italic;
+}
+
+.card-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+/* Tags */
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+    padding: 0;
+    margin-top: 6px;
+}
+
+.tags li {
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    border: 1px solid var(--main);
+    color: var(--main);
+}

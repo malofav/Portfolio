@@ -1,0 +1,5 @@
+Pages:
+    - Accueil
+    - Education
+    - Experience
+    - Sustainable dev and civic engagement
