@@ -90,3 +90,53 @@ li:hover{
     color: rgb(193, 107, 32);
 }
 
+@media (max-width: 768px) {
+
+    /* Header */
+    .header {
+        width: 90%;
+        height: auto;
+        padding: 8px;
+    }
+
+    .header ul {
+        gap: 10px;
+        flex-wrap: wrap; 
+    }
+
+
+    /* Présentation — passe en colonne */
+    .presentation {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 150px;
+        gap: 20px;
+    }
+
+    .pp, .text-pres {
+        width: 85%;
+        height: auto;
+    }
+
+    .pp img {
+        height: auto !important;
+        width: 45%;
+    }
+
+    .text-pres {
+        font-size: 18px;
+        border-left: none;
+        border-top: 2px solid var(--main);
+        padding-left: 0;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    /* Info */
+    .info {
+        flex-direction: column;
+        height: auto;
+        padding: 40px 0;
+        gap: 20px;
+    }
+}
